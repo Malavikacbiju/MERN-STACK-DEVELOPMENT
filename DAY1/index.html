@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>HTML Basics</title>
+    <!-- internal style -->
+    <style>
+        h2{
+            background-color: cornflowerblue;
+        }
+        #my-para{
+            text-decoration: underline;
+        }
+        .font-change{
+            font-family:  'Times New Roman', Times, serif;
+            font-weight: bold;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Heading -->
+ <!-- inline style -->
+ <h1 style = "color: blue;">Welcome to FSD</h1>
+ <h2>Welcome to FSD</h2>
+ <h3>Welcome to FSD</h3>
+ <h4>Welcome to FSD</h4>
+ <h5>Welcome to FSD</h5>
+ <h6>Welcome to FSD</h6>
+<!-- paragraph -->
+ <p>It is a 5 day FSD training program</p>
+ <br>
+ <p class="font-change">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus praesentium et vitae cum excepturi ab consequatur officiis, quisquam, eum ducimus consectetur possimus magni voluptatem accusantium quidem. Facilis blanditiis nisi neque!</p>
+ <br>
+ <p class="font-change">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, obcaecati ea eum, vero possimus officiis, harum nemo ex voluptatibus quibusdam tempora cupiditate. Fuga impedit magni id veniam omnis beatae eos.</p>
+ <br>
+ <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, debitis! Magnam cupiditate, optio dicta modi omnis aperiam iusto? Quis nam dicta ab optio beatae expedita voluptas, eos suscipit numquam autem!</p>
+<p id="my-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium doloribus dolorem quisquam minima atque nam. Exercitationem quaerat est pariatur dicta earum dignissimos qui ratione, asperiores harum doloribus ullam deserunt nobis.</p>
+<!-- ordered list -->
+<h3>Top 3 Football Players</h3>
+<ol>
+    <li>Christiano Ronaldo</li>
+    <li>Lionel Messi</li>
+    <li>Neymar Jr</li>
+</ol>
+
+
+<h3>Top 3 Football Players</h3>
+<ul>
+    <li>Christiano Ronaldo</li>
+    <li>Lionel Messi</li>
+    <li>Neymar Jr</li>
+</ul>
+<!-- Anchor tag links -->
+<a href="https://www.google.com" target="_blank">Visit Google</a>
+
+<!-- Images -->
+ <div class="image-container">
+ <figure>
+ <img src="download.webp" alt="Image of Ronaldo">
+ <figcaption>Image of Cristiano Ronaldo</figcaption>
+ </figure>
+ </div>
+
+<form>
+    <div class="form-container">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" required name="name">
+    <button type="submit">Submit</button><br><br>
+    </div>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" required name="email">
+    <button type="submit">Submit</button><br><br>
+
+    <label for="phone">Phone:</label><br>
+    <input type="tel" id="phone" name="phone">
+    <button type="submit">Submit</button><br><br>
+
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" required name="password">
+    <button type="submit">Submit</button><br><br>
+
+    <label for="feedback">Feedback:</label><br>
+    <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea>
+    <button type="submit">Submit</button>
+
+</form>
+</body>
+</html>
